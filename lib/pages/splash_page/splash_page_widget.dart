@@ -84,6 +84,16 @@ class _SplashPageWidgetState extends State<SplashPageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Spacer(),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                  child: Text(
+                    'TestApp',
+                    style: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Readex Pro',
+                          color: Colors.white,
+                        ),
+                  ),
+                ),
                 Container(
                   width: 50.0,
                   height: 50.0,
